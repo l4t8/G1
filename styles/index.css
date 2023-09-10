@@ -1,0 +1,57 @@
+:root{
+    --leftmargin-x: 100px;
+}
+
+@font-face {
+    font-family: 'Text';
+    src: url(../fonts/poppins-light-webfont.woff2) format('woff2');
+}
+
+.intro{
+    flex-direction: column;
+}
+
+div .intro p{
+    margin-top: 20px;
+    margin-left: 35px;
+    font-size: 20px;
+    color: black;
+    font-family: 'Text';
+}
+
+.introimg{
+    width: 800px;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.introwrapper{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: var(--leftmargin-x);
+    margin-right: 50px;
+}
+
+.heading{
+    font-family: 'Title';
+    font-size: 40px;
+    text-align: left;
+    margin-left: var(--leftmargin-x);
+    margin-top: 30px;
+    color: black;
+}
+
+.black{
+    font-weight: 900;
+    color: black;
+}
+
+.blue{
+    font-weight: 900;
+}
+
+.container{
+    padding: 2rem;
+}
+
+
